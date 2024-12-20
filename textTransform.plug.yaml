@@ -1,0 +1,72 @@
+name: textTransform
+functions:
+  # Case conversion
+  uppercase:
+    path: textTransform.ts:toUppercase
+    command:
+      name: "Text: Convert text to uppercase"
+      requireMode: rw
+  lowercase:
+    path: textTransform.ts:toLowercase
+    command:
+      name: "Text: Convert text to lowercase"
+      requireMode: rw
+  capitalize:
+    path: textTransform.ts:toCapitalize
+    command:
+      name: "Text: Convert text to capitalize"
+      requireMode: rw
+  titleCase:
+    path: textTransform.ts:toTitleCase
+    command:
+      name: "Text: Convert text to title case"
+      requireMode: rw
+  sentenceCase:
+    path: textTransform.ts:toSentenceCase
+    command:
+      name: "Text: Convert text to sentence case"
+      requireMode: rw
+
+  # Programming cases
+  snakeCase:
+    path: textTransform.ts:toSnakeCase
+    command:
+      name: "Text: Convert text to snake case"
+      requireMode: rw
+  camelCase:
+    path: textTransform.ts:toCamelCase
+    command:
+      name: "Text: Convert text to camel case"
+      requireMode: rw
+  kebabCase:
+    path: textTransform.ts:toKebabCase
+    command:
+      name: "Text: Convert text to kebab case"
+      requireMode: rw
+  dotCase:
+    path: textTransform.ts:toDotCase
+    command:
+      name: "Text: Convert text to dot case"
+      requireMode: rw
+
+  # Separator conversion
+  camelToSnake:
+    path: textTransform.ts:camelToSnake
+    command:
+      name: "Text: Convert camelCase to snake_case"
+      requireMode: rw
+  kebabToSnake:
+    path: textTransform.ts:kebabToSnake
+    command:
+      name: "Text: Convert kebab-case to snake_case"
+      requireMode: rw
+  camelToSpace:
+    path: textTransform.ts:camelToSpace
+    command:
+      name: "Text: Convert camelCase to spaces"
+      requireMode: rw
+  removeSpaces:
+    path: textTransform.ts:removeSpaces
+    command:
+      name: "Text: Remove spaces"
+      requireMode: rw

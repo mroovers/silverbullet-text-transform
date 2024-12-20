@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "build": "silverbullet plug:compile -c deno.jsonc textTransform.plug.yaml",
+    "watch": "silverbullet plug:compile -c deno.jsonc textTransform.plug.yaml -w"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
+  },
+  "fmt": {
+    "exclude": ["*.md", "**/*.md", "*.plug.js"]
+  },
+  "imports": {
+    "@silverbulletmd/silverbullet": "jsr:@silverbulletmd/silverbullet@^0.9.0",
+    "@es-toolkit/es-toolkit": "jsr:@es-toolkit/es-toolkit@^1.30.1"
+  }
+}
